@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/vinayasharanappanavar/udacity-project-webapp/_apis/build/status%2FVinayaMSh.udacity-project-webapp?branchName=build_and_deploy)](https://dev.azure.com/vinayasharanappanavar/udacity-project-webapp/_build/latest?definitionId=4&branchName=build_and_deploy)
+
 # Overview
 
 <TODO: complete this with an overview of your project>
