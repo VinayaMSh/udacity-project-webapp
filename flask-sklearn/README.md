@@ -1,6 +1,14 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project is intended as an example/exercise project to test complete CI/CD with Azure pipelines.
+
+The project deploys a Python flask web application in Azure App services
+
+Whenever there is a commit to the repostory, an automatic build is started in GitHub Actions and then is deployed to the App Services
+
+The detailed instructions of how to start and configure the complete pipeline using this repository can be found below in detailed instructions. 
+
+So, lets get started!
 
 ## Project Plan
 <TODO: Project Plan
