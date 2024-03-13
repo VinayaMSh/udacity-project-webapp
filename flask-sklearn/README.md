@@ -50,9 +50,9 @@ So, lets get started!
         python3 -m venv ~/.myrepo
         source ~/.myrepo/bin/activate
         ```
-  -  Install required dependencies in the created virtual environment and run the application locally
+  -  Install required dependencies, lint and test the code in the created virtual environment and run the application locally
         ```
-        make install
+        make all
 
         python app.py
         ```
