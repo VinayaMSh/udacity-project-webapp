@@ -24,8 +24,26 @@ So, lets get started!
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
+  -  This project is already deployed and can be accessed with url https://flask-ml-1203.azurewebsites.net/
+  -  ![image](https://github.com/VinayaMSh/udacity-project-webapp/assets/37274214/8f6023b3-db98-44cd-86e7-d95c0e5de346)
+
+
 
 * Project cloned into Azure Cloud Shell
+  -  Start by cloning this repository in your Azure Cloud shell
+  
+  ```
+  git clone https://github.com/VinayaMSh/udacity-project-webapp.git
+  ```
+
+  -  Once successfully cloned, go to the repo folder on the shell
+ 
+    The flask webapp code is found in the folder flask-sklearn in the repository, so change to this folder in the repository with the command below
+  ```
+  cd ~/udacity-project-webapp/flask-sklearn/
+  ```
+
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
