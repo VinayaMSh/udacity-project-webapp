@@ -29,7 +29,8 @@ So, lets get started!
 
 
 
-* Project cloned into Azure Cloud Shell
+## Deploy WebApp
+
   -  Start by cloning this repository in your Azure Cloud shell
   
   ```
@@ -42,8 +43,35 @@ So, lets get started!
   ```
   cd ~/udacity-project-webapp/flask-sklearn/
   ```
+  ###  Deploy app locally 
 
+  -  Create virtual environment
+        ```
+        python3 -m venv ~/.myrepo
+        source ~/.myrepo/bin/activate
+        ```
+  -  Install required dependencies in the created virtual environment and run the application locally
+        ```
+        make install
 
+        python app.py
+        ```
+  -   Once you have the output like below, open a new cloud shell session and execute the make_prediction.sh and it should   display the prediction
+       ```
+        cd udacity-project-webapp/flask-sklearn/
+
+        ./make_prediction.sh
+        ```
+      ![image](https://github.com/VinayaMSh/udacity-project-webapp/assets/37274214/87ff09f8-ad92-4420-a441-a449b0e1a825)
+
+        - When done, exit the virtual environment with exit command
+
+  ### Deploy app in Azure
+      
+  ```
+  az webapp up --sku B1 --logs --name flask-ml-1203 --resource-group udacity-test
+  ```
+  Give the name of the flask webapp of your choice to the --name parameter 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
